@@ -1,0 +1,350 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 16px;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    background-color: white;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.header .left_logo {
+    padding: 8px 16px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    letter-spacing: 4px;
+}
+
+.header .right_buttons {
+    display: flex;
+}
+
+.right_buttons .projects {
+    padding: 8px 16px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    letter-spacing: 4px;
+}
+
+.right_buttons .projects:hover {
+    background-color: #EEECEB;
+}
+
+.right_buttons .about {
+    padding: 8px 16px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    letter-spacing: 4px;
+}
+
+.right_buttons .about:hover {
+    background-color: #EEECEB;
+}
+
+.right_buttons .contact {
+    padding: 8px 16px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    letter-spacing: 4px;
+}
+
+.right_buttons .contact:hover {
+    background-color: #EEECEB;
+}
+
+.container .br_image {
+    width: 100%;
+}
+
+.br_image_container {
+    width: 100%;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.br_image_container .middle_container {
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+}
+
+.br_image_container .middle_container h1 .b_r {
+    font-size: 36px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.75);
+    padding: 8px 16px;
+
+}
+
+.br_image_container .middle_container h1 .a_r {
+    font-size: 36px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    color: white;
+}
+
+.details_container {
+    padding: 8px 16px;
+    /* margin: 0px 241.2px; */
+}
+
+.details_container .projects_container {
+    padding: 32px 16px;
+}
+
+.details_container .projects_container h3 {
+    padding: 16px 0px;
+    margin: 10px 0px;
+    font-size: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    border-bottom: 1px solid #F1F1F1;
+}
+
+.row_container {
+    padding: 0px 8px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* width: 100%;  */
+}
+
+.row_container .summer_house_container {
+    /* width: 24.99999%; */
+    width: 367px;
+    padding: 0px 8px;
+    margin: 0px 0px 16px;
+    position: relative;
+}
+
+.row_container .summer_house_container img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.row_container .summer_house_container .image_tag {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    padding: 8px 16px;
+    margin: 0px 8px;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+
+.row_container .brick_house_container {
+    /* width: 24.99999%; */
+    width: 367px;
+    padding: 0px 8px;
+    margin: 0px 0px 16px;
+    position: relative;
+}
+
+.row_container .brick_house_container img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.row_container .brick_house_container .image_tag {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    padding: 8px 16px;
+    margin: 0px 8px;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.row_container .renovated_house_container {
+    /* width: 24.99999%; */
+    width: 367px;
+    padding: 0px 8px;
+    margin: 0px 0px 16px;
+    position: relative;
+}
+
+.row_container .renovated_house_container img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.row_container .renovated_house_container .image_tag {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    padding: 8px 16px;
+    margin: 0px 8px;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.row_container .barn_house_container {
+    /* width: 24.99999%; */
+    width: 367px;
+    padding: 0px 8px;
+    margin: 0px 0px 16px;
+    position: relative;
+}
+
+.row_container .barn_house_container img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.row_container .barn_house_container .image_tag {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    padding: 8px 16px;
+    margin: 0px 8px;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.details_container .about_container {
+    padding: 32px 16px;
+}
+
+.details_container .about_container h3 {
+    padding: 16px 0px;
+    margin: 10px 0px;
+    font-size: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    border-bottom: 1px solid #F1F1F1;
+}
+
+.details_container .about_container p {
+    /* padding: 16px 0px; */
+    margin: 15px 0px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    font-weight: 400;
+}
+
+.details_container .row_user_container {
+    padding: 0px 8px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* width: 100%; */
+    /* background-color: aqua; */
+}
+
+.details_container .row_user_container .user_image_container {
+    margin: 0px 0px 16px;
+    padding: 0px 8px;
+    width: 367px;
+    /* width: 24.999%; */
+    /* display: block; */
+}
+
+.details_container .row_user_container .user_image_container img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.details_container .row_user_container .user_image_container h3 {
+    margin: 10px 0px;
+    font-size: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+}
+
+.details_container .row_user_container .user_image_container p {
+    margin: 10px 0px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.details_container .row_user_container .user_image_container .Contact_button {
+    background-color: #F1F1F1;
+    padding: 8px 16px;
+    text-align: center;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.details_container .contact_Container {
+    padding: 32px 16px;
+}
+
+.details_container .contact_Container h3 {
+    padding: 16px 0px;
+    margin: 10px 0px;
+    font-size: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    border-bottom: 1px solid #F1F1F1;
+}
+
+.details_container .contact_Container p {
+    margin: 15px 0px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.details_container .contact_Container .form .input {
+    padding: 8px;
+    border: 1px solid #F1F1F1;
+    width: 100%;
+}
+
+.details_container .contact_Container .form .input_container {
+    padding: 8px 0px;
+}
+
+.container .details_container .map{
+    width: 100%;
+}
+
+.details_container .contact_Container .form .submit_button {
+    font: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 16px 0px;
+    padding: 8px 16px;
+    background-color: black;
+    color: white;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    margin: 15px 0px;
+    padding: 16px 0px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-family: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
