@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .image_box {
+            position: relative;
+            margin-left: 300px;
+            margin-top: 32px;
+        }
+
+        .image {
+            height: 540px;
+            width: 260px;
+            position: absolute;
+            left: 150px;
+            top: 23px;
+        }
+
+        .form_container{
+            height: 380px;
+            width: 250px;
+            border: 1px solid #D2D2D2;
+            padding-left: 36px;
+            padding-right: 36px;
+            position: absolute;
+            left: 800px;
+            top: 32px;
+        }
+
+        .logo{
+            display: block;
+            margin: auto;
+            width: 150px;
+            height: 40px;
+            margin-top: 36px;
+            margin-bottom: 36px;
+        }
+
+        /* .form{
+            border: 1px solid red;
+        } */
+
+        .input_username{
+            border: 1px solid #D2D2D2;
+            width: 239px;
+            padding-left: 8px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            border-radius: 2px;
+            background-color: #fafafa;
+            font-size: 12px;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: start;
+        }
+
+        .input_password{
+            border: 1px solid #D2D2D2;
+            width: 239px;
+            margin-top: 6px;
+            padding-left: 8px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            border-radius: 2px;
+            background-color: #fafafa;
+            font-size: 12px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .btn_login{
+            border: 0px;
+            display: block;
+            margin: auto;
+            width: 249px;
+            color: white;
+            background-color: #24a0ed;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            border-radius: 6px;
+            margin-top: 16px;
+            font-family: sans-serif;
+            font-size: 12px;
+            font-weight: 600;
+        }
+
+        hr{
+            margin-top: 16px;
+        }
+
+        .facebook_container{
+            text-align: center;
+            font-family: sans-serif;
+            font-size: 16px;
+            font-weight: bold;
+            color: #385185;
+            margin-top: 24px;
+        }
+
+        i{
+            padding-right: 10px;
+        }
+
+        .forgot_container{
+            text-align: center;
+            font-family: sans-serif;
+            /* font-size: 16px; */
+            margin-top: 24px;
+            color: #385185;
+        }
+
+        .signup_container{
+            position: absolute;
+            border: 1px solid #D2D2D2;
+            top: 430px;
+            height: 80px;
+            width: 250px;
+            left: 800px;
+            padding-left: 36px;
+            padding-right: 36px;
+            text-align: center;
+        }
+
+        .signup_line{
+            font-size: 14px;
+            font-family: sans-serif;
+            margin-top: 30px;
+        }
+
+        .btn_signup{
+            color: #24a0ed;
+        }
+
+        .get_the_app{
+            /* border: 1px solid #D2D2D2; */
+            position: absolute;
+            top: 530px;
+            left: 800px;
+            width: 250px;
+            padding-left: 36px;
+            padding-right: 36px;
+            display: block;
+            margin: auto;
+            text-align: center;
+            font-family: sans-serif;
+            font-size: 14px;
+        }
+
+        .btn_online_container{
+            /* border: 1px solid #D2D2D2; */
+            position: absolute;
+            top: 570px;
+            left: 800px;
+            width: 250px;
+            padding-left: 36px;
+            padding-right: 36px;
+        }
+
+        .google_play{
+            width: 130.28px;
+            height: 40px;
+            margin-right: 4px;
+        }
+
+        .microsoft{
+            width: 110.76px;
+            height: 40px;
+        }
+
+        .or{
+            font-family: sans-serif;
+            margin-top: 24px;
+            display: block;
+            text-align: center;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="image_box">
+            <img src="https://static.cdninstagram.com/images/instagram/xig/homepage/phones/home-phones.png?__makehaste_cache_breaker=HOgRclNOosk"
+                alt="Instagram image">
+            <img class="image" src="Images/screenshot1-2x.png" alt="">
+        </div>
+
+        <div class="form_container">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfsGUMX5_VbQJQ4OpHr0SWdUin5PjJyLmfQ7Zzd8JyGA&s" alt="" class="logo">
+            
+            <div class="form">
+                <input type="text" name="" placeholder="Phone number, username, or email" id="username" class="input_username">
+                <br>
+                <input type="password" name="" placeholder="Password" id="password" class="input_password">
+                <br>
+                <input type="button" value="Log in" class="btn_login">
+            </div>
+
+            <span class="or">OR</span>
+
+            <div class="facebook_container">
+
+                <p><span><i class="fa-brands fa-square-facebook"></i></span>Log in with Facebook</p>
+            </div>
+
+            <div class="forgot_container">
+                <p>Forgot password?</p>
+            </div>
+            
+        </div>
+
+        <div class="signup_container">
+            <p class="signup_line">Don't have an account? <span class="btn_signup">Sign up</span></p>
+        </div>
+
+        <p class="get_the_app">Get the app.</p>
+
+        <div class="btn_online_container">
+            <img src="Images/googleplay.png" alt="" class="google_play">
+            <img src="Images/microsoft.png" alt="" class="microsoft">
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>
